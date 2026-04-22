@@ -43,7 +43,6 @@ schedule:
   enabled: true                         # 是否启用调度系统
   preset: "morning_evening"             # 预设模板名称（见上方说明）
 
-
 # ===============================================================
 # 2. 数据源 - 热榜平台
 #
@@ -77,6 +76,8 @@ platforms:
       name: "抖音"
     - id: "zhihu"
       name: "知乎"
+    - id: "xiaohongshu"
+      name: "小红书"
 
 
 
